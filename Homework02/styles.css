@@ -1,0 +1,124 @@
+#main {
+    background-image: url(/Images/images.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+   
+    
+}
+
+#main header {
+    text-align: center;
+    padding:70px;
+
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+    padding:70px;
+    font-size: 15px;
+    line-break: auto;
+    align-items: center;
+}
+
+.top-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: 800;
+}
+.nav-item {
+    margin: 0 20px;
+}
+
+.header-main {
+    margin-top: 200px;
+}
+
+.header-name {
+    font-family: 'Playfair Display', serif;
+
+}
+
+.header-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 45px;
+    
+}
+
+.btn-outline-dark {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.about-me-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #053d63;
+}
+
+.info-aboutme {
+    width: 60%;
+    font-family: 'Old Standard TT', serif;
+    line-height: 2;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.my-image {
+    margin-top: 80px;
+    margin-left: 200px;
+    height: 300px;
+    width: 350px;
+
+}
+
+footer {
+    margin-top: 0;
+    text-align: center;
+    margin-left: 50px;
+   
+    
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.social-icon {
+    height: 40px;
+    margin: 10px 20px;
+    
+}
+
+.socila-icon:after {
+    display: block;
+    height: 100px;
+    width: 80%;
+    box-shadow: 0 2px 100px;
+}
+
+footer .container {
+    margin: 0;
+}
+
+.social-icons-container {
+    
+    padding: 20px;
+    position: relative;
+    top: -20px;
+}
